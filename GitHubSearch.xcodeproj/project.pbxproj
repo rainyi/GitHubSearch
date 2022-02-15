@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		269EB2F827BA178F00787847 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB2F727BA178F00787847 /* App.swift */; };
+		269EB2FB27BA18F000787847 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB2FA27BA18F000787847 /* Navigator.swift */; };
+		269EB2FE27BA194600787847 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB2FD27BA194600787847 /* NetworkService.swift */; };
+		269EB30027BA21D700787847 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB2FF27BA21D700787847 /* NetworkSession.swift */; };
+		269EB30227BA220D00787847 /* GitHubRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB30127BA220D00787847 /* GitHubRouter.swift */; };
+		269EB30627BA22F000787847 /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB30527BA22F000787847 /* UserInteractor.swift */; };
+		269EB30927BA234E00787847 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB30827BA234E00787847 /* ViewType.swift */; };
+		269EB30E27BA248100787847 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB30D27BA248100787847 /* Section.swift */; };
+		269EB31027BA24A700787847 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB30F27BA24A700787847 /* User.swift */; };
+		269EB31527BA253F00787847 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB31427BA253F00787847 /* UserListViewModel.swift */; };
+		269EB31727BA261B00787847 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB31627BA261B00787847 /* ViewModelType.swift */; };
+		269EB31927BA265700787847 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB31827BA265700787847 /* UserListViewController.swift */; };
+		269EB31C27BA298A00787847 /* UserInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB31A27BA298A00787847 /* UserInfoTableViewCell.swift */; };
+		269EB31D27BA298A00787847 /* UserInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269EB31B27BA298A00787847 /* UserInfoTableViewCell.xib */; };
+		269EB31F27BA29A500787847 /* UserInfoTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB31E27BA29A500787847 /* UserInfoTableViewCellViewModel.swift */; };
+		269EB32327BA2A9300787847 /* Observable+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB32227BA2A9300787847 /* Observable+Rx.swift */; };
+		269EB32527BA2AD100787847 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB32427BA2AD100787847 /* UIView+Extension.swift */; };
+		269EB32827BA2DE700787847 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB32727BA2DE700787847 /* ThemeColor.swift */; };
+		269EB32A27BA2E0A00787847 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB32927BA2E0A00787847 /* ThemeFont.swift */; };
+		269EB32C27BA2E2A00787847 /* ThemeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB32B27BA2E2A00787847 /* ThemeImage.swift */; };
+		269EB32E27BA2EBF00787847 /* App+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB32D27BA2EBF00787847 /* App+Theme.swift */; };
+		269EB33027BA2EDC00787847 /* App+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB32F27BA2EDC00787847 /* App+UI.swift */; };
+		269EB33227BA2F3E00787847 /* Navigator+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269EB33127BA2F3E00787847 /* Navigator+Transition.swift */; };
+		269EB33527BA4FA500787847 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 269EB33427BA4FA500787847 /* SnapKit */; };
 		26FB20FD27A41488006318C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB20FC27A41488006318C4 /* AppDelegate.swift */; };
 		26FB20FF27A41488006318C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB20FE27A41488006318C4 /* SceneDelegate.swift */; };
 		26FB210127A41488006318C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FB210027A41488006318C4 /* ViewController.swift */; };
@@ -44,6 +68,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		269EB2F727BA178F00787847 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		269EB2FA27BA18F000787847 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		269EB2FD27BA194600787847 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		269EB2FF27BA21D700787847 /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		269EB30127BA220D00787847 /* GitHubRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRouter.swift; sourceTree = "<group>"; };
+		269EB30527BA22F000787847 /* UserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractor.swift; sourceTree = "<group>"; };
+		269EB30827BA234E00787847 /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		269EB30D27BA248100787847 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		269EB30F27BA24A700787847 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		269EB31427BA253F00787847 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		269EB31627BA261B00787847 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		269EB31827BA265700787847 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		269EB31A27BA298A00787847 /* UserInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewCell.swift; sourceTree = "<group>"; };
+		269EB31B27BA298A00787847 /* UserInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoTableViewCell.xib; sourceTree = "<group>"; };
+		269EB31E27BA29A500787847 /* UserInfoTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		269EB32227BA2A9300787847 /* Observable+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Rx.swift"; sourceTree = "<group>"; };
+		269EB32427BA2AD100787847 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		269EB32727BA2DE700787847 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		269EB32927BA2E0A00787847 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
+		269EB32B27BA2E2A00787847 /* ThemeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeImage.swift; sourceTree = "<group>"; };
+		269EB32D27BA2EBF00787847 /* App+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Theme.swift"; sourceTree = "<group>"; };
+		269EB32F27BA2EDC00787847 /* App+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+UI.swift"; sourceTree = "<group>"; };
+		269EB33127BA2F3E00787847 /* Navigator+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigator+Transition.swift"; sourceTree = "<group>"; };
 		26FB20F927A41488006318C4 /* GitHubSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FB20FC27A41488006318C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26FB20FE27A41488006318C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +124,7 @@
 				26FB213627A41920006318C4 /* Kingfisher in Frameworks */,
 				26FB213327A41811006318C4 /* RxSwift in Frameworks */,
 				26FB213927A4198C006318C4 /* RxMoya in Frameworks */,
+				269EB33527BA4FA500787847 /* SnapKit in Frameworks */,
 				26FB213127A41811006318C4 /* RxCocoa in Frameworks */,
 				BD83DF996FCC33D9FEA15F81 /* Pods_GitHubSearch.framework in Frameworks */,
 			);
@@ -111,6 +159,140 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		269EB2F427BA166E00787847 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				269EB2FC27BA192D00787847 /* Networking */,
+				269EB2F927BA185A00787847 /* Navigator */,
+				269EB2F527BA16B300787847 /* AppDelegate */,
+				269EB2F627BA175800787847 /* App */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		269EB2F527BA16B300787847 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				26FB20FC27A41488006318C4 /* AppDelegate.swift */,
+				26FB20FE27A41488006318C4 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		269EB2F627BA175800787847 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				269EB2F727BA178F00787847 /* App.swift */,
+				269EB32D27BA2EBF00787847 /* App+Theme.swift */,
+				269EB32F27BA2EDC00787847 /* App+UI.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		269EB2F927BA185A00787847 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				269EB2FA27BA18F000787847 /* Navigator.swift */,
+				269EB33127BA2F3E00787847 /* Navigator+Transition.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		269EB2FC27BA192D00787847 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				269EB2FD27BA194600787847 /* NetworkService.swift */,
+				269EB2FF27BA21D700787847 /* NetworkSession.swift */,
+				269EB30127BA220D00787847 /* GitHubRouter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		269EB30327BA225900787847 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				269EB31127BA250B00787847 /* Scene */,
+				269EB30C27BA246500787847 /* Model */,
+				269EB30727BA233900787847 /* Base */,
+				269EB30427BA226E00787847 /* Interactor */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		269EB30427BA226E00787847 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				269EB30527BA22F000787847 /* UserInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		269EB30727BA233900787847 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				269EB30827BA234E00787847 /* ViewType.swift */,
+				26FB210027A41488006318C4 /* ViewController.swift */,
+				269EB31627BA261B00787847 /* ViewModelType.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		269EB30C27BA246500787847 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				269EB30D27BA248100787847 /* Section.swift */,
+				269EB30F27BA24A700787847 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		269EB31127BA250B00787847 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				269EB31227BA251A00787847 /* UserList */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		269EB31227BA251A00787847 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				269EB31327BA252400787847 /* Cell */,
+				269EB31427BA253F00787847 /* UserListViewModel.swift */,
+				269EB31827BA265700787847 /* UserListViewController.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		269EB31327BA252400787847 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				269EB31E27BA29A500787847 /* UserInfoTableViewCellViewModel.swift */,
+				269EB31A27BA298A00787847 /* UserInfoTableViewCell.swift */,
+				269EB31B27BA298A00787847 /* UserInfoTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		269EB32127BA2A4200787847 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				269EB32227BA2A9300787847 /* Observable+Rx.swift */,
+				269EB32427BA2AD100787847 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		269EB32627BA2DC400787847 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				269EB32727BA2DE700787847 /* ThemeColor.swift */,
+				269EB32927BA2E0A00787847 /* ThemeFont.swift */,
+				269EB32B27BA2E2A00787847 /* ThemeImage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		26FB20F027A41488006318C4 = {
 			isa = PBXGroup;
 			children = (
@@ -136,9 +318,10 @@
 		26FB20FB27A41488006318C4 /* GitHubSearch */ = {
 			isa = PBXGroup;
 			children = (
-				26FB20FC27A41488006318C4 /* AppDelegate.swift */,
-				26FB20FE27A41488006318C4 /* SceneDelegate.swift */,
-				26FB210027A41488006318C4 /* ViewController.swift */,
+				269EB32627BA2DC400787847 /* Utilities */,
+				269EB32127BA2A4200787847 /* Extension */,
+				269EB2F427BA166E00787847 /* Core */,
+				269EB30327BA225900787847 /* Modules */,
 				26FB210227A41488006318C4 /* Main.storyboard */,
 				26FB210827A41488006318C4 /* Assets.xcassets */,
 				26FB210A27A41488006318C4 /* LaunchScreen.storyboard */,
@@ -175,7 +358,6 @@
 				3AC911E59130D0A2ADF5688A /* Pods-GitHubSearchTests.debug.xcconfig */,
 				D118B5C98D813A8F99E47E1E /* Pods-GitHubSearchTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -202,6 +384,7 @@
 				26FB213227A41811006318C4 /* RxSwift */,
 				26FB213527A41920006318C4 /* Kingfisher */,
 				26FB213827A4198C006318C4 /* RxMoya */,
+				269EB33427BA4FA500787847 /* SnapKit */,
 			);
 			productName = GitHubSearch;
 			productReference = 26FB20F927A41488006318C4 /* GitHubSearch.app */;
@@ -279,9 +462,10 @@
 			);
 			mainGroup = 26FB20F027A41488006318C4;
 			packageReferences = (
-				26FB212F27A41811006318C4 /* XCRemoteSwiftPackageReference "RxSwift.git" */,
-				26FB213427A41920006318C4 /* XCRemoteSwiftPackageReference "Kingfisher.git" */,
-				26FB213727A4198C006318C4 /* XCRemoteSwiftPackageReference "Moya.git" */,
+				26FB212F27A41811006318C4 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				26FB213427A41920006318C4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				26FB213727A4198C006318C4 /* XCRemoteSwiftPackageReference "Moya" */,
+				269EB33327BA4FA500787847 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 26FB20FA27A41488006318C4 /* Products */;
 			projectDirPath = "";
@@ -299,6 +483,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269EB31D27BA298A00787847 /* UserInfoTableViewCell.xib in Resources */,
 				26FB210C27A41488006318C4 /* LaunchScreen.storyboard in Resources */,
 				26FB210927A41488006318C4 /* Assets.xcassets in Resources */,
 				26FB210427A41488006318C4 /* Main.storyboard in Resources */,
@@ -429,10 +614,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269EB32A27BA2E0A00787847 /* ThemeFont.swift in Sources */,
+				269EB32E27BA2EBF00787847 /* App+Theme.swift in Sources */,
+				269EB31027BA24A700787847 /* User.swift in Sources */,
+				269EB31927BA265700787847 /* UserListViewController.swift in Sources */,
 				26FB210127A41488006318C4 /* ViewController.swift in Sources */,
+				269EB30627BA22F000787847 /* UserInteractor.swift in Sources */,
 				26FB20FD27A41488006318C4 /* AppDelegate.swift in Sources */,
+				269EB32827BA2DE700787847 /* ThemeColor.swift in Sources */,
+				269EB32327BA2A9300787847 /* Observable+Rx.swift in Sources */,
+				269EB30227BA220D00787847 /* GitHubRouter.swift in Sources */,
 				26FB210727A41488006318C4 /* GitHubSearch.xcdatamodeld in Sources */,
+				269EB32C27BA2E2A00787847 /* ThemeImage.swift in Sources */,
+				269EB30927BA234E00787847 /* ViewType.swift in Sources */,
+				269EB2F827BA178F00787847 /* App.swift in Sources */,
+				269EB33227BA2F3E00787847 /* Navigator+Transition.swift in Sources */,
+				269EB31F27BA29A500787847 /* UserInfoTableViewCellViewModel.swift in Sources */,
+				269EB31727BA261B00787847 /* ViewModelType.swift in Sources */,
 				26FB20FF27A41488006318C4 /* SceneDelegate.swift in Sources */,
+				269EB31527BA253F00787847 /* UserListViewModel.swift in Sources */,
+				269EB30027BA21D700787847 /* NetworkSession.swift in Sources */,
+				269EB30E27BA248100787847 /* Section.swift in Sources */,
+				269EB2FB27BA18F000787847 /* Navigator.swift in Sources */,
+				269EB33027BA2EDC00787847 /* App+UI.swift in Sources */,
+				269EB2FE27BA194600787847 /* NetworkService.swift in Sources */,
+				269EB32527BA2AD100787847 /* UIView+Extension.swift in Sources */,
+				269EB31C27BA298A00787847 /* UserInfoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,7 +991,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		26FB212F27A41811006318C4 /* XCRemoteSwiftPackageReference "RxSwift.git" */ = {
+		269EB33327BA4FA500787847 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		26FB212F27A41811006318C4 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -792,7 +1007,7 @@
 				minimumVersion = 6.5.0;
 			};
 		};
-		26FB213427A41920006318C4 /* XCRemoteSwiftPackageReference "Kingfisher.git" */ = {
+		26FB213427A41920006318C4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -800,7 +1015,7 @@
 				minimumVersion = 7.0.0;
 			};
 		};
-		26FB213727A4198C006318C4 /* XCRemoteSwiftPackageReference "Moya.git" */ = {
+		26FB213727A4198C006318C4 /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya.git";
 			requirement = {
@@ -811,24 +1026,29 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		269EB33427BA4FA500787847 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 269EB33327BA4FA500787847 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
 		26FB213027A41811006318C4 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 26FB212F27A41811006318C4 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
+			package = 26FB212F27A41811006318C4 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
 		26FB213227A41811006318C4 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 26FB212F27A41811006318C4 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
+			package = 26FB212F27A41811006318C4 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
 		26FB213527A41920006318C4 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 26FB213427A41920006318C4 /* XCRemoteSwiftPackageReference "Kingfisher.git" */;
+			package = 26FB213427A41920006318C4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
 		26FB213827A4198C006318C4 /* RxMoya */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 26FB213727A4198C006318C4 /* XCRemoteSwiftPackageReference "Moya.git" */;
+			package = 26FB213727A4198C006318C4 /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = RxMoya;
 		};
 /* End XCSwiftPackageProductDependency section */

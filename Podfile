@@ -7,6 +7,7 @@ target 'GitHubSearch' do
 
   # Pods for GitHubSearch
   pod 'Then'
+#  pod 'RxViewController'
 
   target 'GitHubSearchTests' do
     inherit! :search_paths
